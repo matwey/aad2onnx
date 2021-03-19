@@ -1,5 +1,6 @@
 from ad_examples.aad.aad_globals import get_aad_option_list, AAD_IFOREST, AadOpts
 from ad_examples.aad.aad_support import get_aad_model
+from aad2onnx import convert, to_onnx
 import numpy as np
 import unittest
 

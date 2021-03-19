@@ -9,6 +9,7 @@ setup(name=name,
 	url='http://github.com/matwey/aad2onnx',
 	author='Matwey V. Kornilov',
 	author_email='matwey.kornilov@gmail.com',
+	test_suite='tests',
 	license='MIT',
 	classifiers=[
 		'Programming Language :: Python',
