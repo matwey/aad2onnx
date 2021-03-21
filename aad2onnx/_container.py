@@ -1,0 +1,4 @@
+from onnxconverter_common.container import CommonSklearnModelContainer
+
+class AadModelContainer(CommonSklearnModelContainer):
+	pass

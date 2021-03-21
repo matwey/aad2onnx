@@ -30,8 +30,9 @@ class ConvertTest(unittest.TestCase):
 		return model
 
 	def test_convert1(self):
-		x = np.random.normal(size=(20, 4))
+		x = np.random.normal(size=(20, 4)).astype(np.float32)
 
 		model = self.createAADModel(x)
 
+		o = to_onnx(model, x)
 		pass
