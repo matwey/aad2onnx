@@ -1,5 +1,6 @@
 from ._container import AadModelContainer
-from onnxconverter_common.topology import Topology, FloatTensorType
+from onnxconverter_common.topology import Topology
+from onnxconverter_common.data_types import FloatTensorType
 
 from ad_examples.aad.forest_aad_detector import AadForest
 
