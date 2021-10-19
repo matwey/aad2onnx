@@ -1,7 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 name="aad2onnx"
 version="0.1"
+test_suite="tests"
 
 setup(name=name,
 	version=version,
@@ -9,7 +10,8 @@ setup(name=name,
 	url='http://github.com/matwey/aad2onnx',
 	author='Matwey V. Kornilov',
 	author_email='matwey.kornilov@gmail.com',
-	test_suite='tests',
+	packages=find_packages(exclude=(test_suite,)),
+	test_suite=test_suite,
 	license='MIT',
 	classifiers=[
 		'Programming Language :: Python',
