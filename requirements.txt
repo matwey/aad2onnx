@@ -1,4 +1,5 @@
 ad_examples @ git+https://github.com/shubhomoydas/ad_examples.git@1dd4cb6d93d925de847e495e7fbde416682af5d6#egg=ad_examples-0.0.0'
 onnx
+onnxruntime
 onnxconverter-common
 skl2onnx
