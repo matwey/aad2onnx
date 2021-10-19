@@ -3,6 +3,7 @@ from uuid import uuid4
 import onnx
 from .proto import get_maximum_opset_supported
 from ._parse import parse_aad
+from . import operator_converters
 from . import shape_calculators
 from onnxconverter_common.topology import convert_topology
 
