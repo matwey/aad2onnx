@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 name="aad2onnx"
-version="0.1.3"
+version="0.1.4"
 test_suite="tests"
 
 setup(name=name,
